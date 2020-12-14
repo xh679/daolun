@@ -1,0 +1,58 @@
+{
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#6699FF",
+    "backgroundColor": "#CCFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/w2.png",
+        "iconPath": "images/w1.png",
+        "pagePath": "pages/start/start",
+        "text": "Weather"
+      },
+      {
+        "iconPath": "images/todos.png",
+        "selectedIconPath": "images/todos-active.png",
+        "pagePath": "pages/agenda/agenda",
+        "text": "Todolist"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "Logs",
+        "iconPath": "images/logs.png",
+        "selectedIconPath": "images/logs-active.png"
+      },
+      {
+        "selectedIconPath": "images/c2.png",
+        "iconPath": "images/c1.png",
+        "pagePath": "pages/index/index",
+        "text": "Timer"
+      },
+      {
+        "selectedIconPath": "images/s2.png",
+        "iconPath": "images/s1.png",
+        "pagePath": "pages/Settings/Settings",
+        "text": "Settings"
+      }
+    ]
+  },
+  "pages": [
+    "pages/start/start",
+    "pages/wifi_station/tianqi/tianqi",
+    "pages/index/index",
+    "pages/agenda/agenda",
+    "pages/logs/logs",
+    "pages/Settings/Settings"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CCFFFF",
+    "navigationBarTitleText": "每一天，为明天",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#CCFFFF",
+    "enablePullDownRefresh": true
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

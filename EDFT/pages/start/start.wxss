@@ -1,0 +1,49 @@
+/* start.wxss */
+page { 
+  background-image:url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3532338739,757189112&fm=26&gp=0.jpg")
+}
+.btn1{
+  width: 50%;
+  color:#052952f5;
+  background-color: transparent;
+  top: 10%;
+  border-radius: 98rpx;
+}
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0;
+}
+ 
+.radio-group{
+  left: 26%;
+  top: 40%;
+  color:#21384C;
+  position: absolute
+}
+
+#input{
+  background-color: #e5e5e5;
+  width: 60%;
+  height: 88rpx;
+  top: 55%;
+  left: 19%;
+  position: absolute
+  }
+
+  #text{
+  color:#21384C;
+  font-family:PingFangSC-Regular;
+  font-size:12px;
+  top: 65%;
+  left: 11%;
+  position: absolute
+  }
+
+  #btn3{
+  height: 90rpx;
+  top: 66%;
+  width: 60%;
+  color:rgb(0, 0, 0);
+  background-color:rgba(246, 246, 248, 0.952);
+  opacity:100%；
+  }
